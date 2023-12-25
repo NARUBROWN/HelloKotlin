@@ -1,5 +1,8 @@
 package kotilnStandardTypeCharAndBoolean
 
+import java.util.Objects
+import kotlin.reflect.typeOf
+
 fun main() {
     val c:Char = 'A'
     // var c:Char = "A" ""은 불가
@@ -14,4 +17,12 @@ fun main() {
 
     println(code.toChar() + ", " + (code+1).toChar()) // A, B
     println("$han_code_1" + "$hancode_11172")
+
+    for (i in 65..90) {
+        val a:Char = i.toChar() // Int를 Char로 65~90는 ACSII 알파벳 대문자에 해당
+        println(a)
+        println(a.code) // 문자(알파벳, 한글, 정수등)를 ACSII 코드로 변환
+    }
+
+    println('1'.digitToInt()) // 문자 정수를 Int형으로 변환
 }
