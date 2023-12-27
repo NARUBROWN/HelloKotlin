@@ -1,4 +1,4 @@
-package kotilnStandardTypeCharAndBoolean
+package kotlinStandardTypeCharAndBoolean
 
 fun main() {
     var foo:Boolean = true

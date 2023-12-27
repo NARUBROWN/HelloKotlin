@@ -1,7 +1,4 @@
-package kotilnStandardTypeCharAndBoolean
-
-import java.util.Objects
-import kotlin.reflect.typeOf
+package kotlinStandardTypeCharAndBoolean
 
 fun main() {
     val c:Char = 'A'
